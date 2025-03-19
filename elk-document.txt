@@ -1,0 +1,21 @@
+Downloads link:
+	https://www.elastic.co/downloads/kibana
+	https://www.elastic.co/downloads/elasticsearch
+	https://www.elastic.co/downloads/logstash
+
+To Start elastic search we need to flow step:
+	1. elasticsearch-8.17.3\bin\elasticsearch.bat
+		start elasticsearch.bat using  cmd
+		E:\Practic-2025\ELK\ELK-Tool\elasticsearch-8.17.3-windows-x86_64\elasticsearch-8.17.3\bin>elasticsearch.bat
+		
+To Run kibana we need to flow below step:
+	we should before change \kibana-8.17.3-windows-x86_64\kibana-8.17.3\config
+	
+	in config.yaml file we should enable 
+		#elasticsearch.hosts: ["http://localhost:9200"]
+		
+	Bydefauls It was desibled
+
+To Run kibana we need to go in 
+	kibana-8.17.3-windows-x86_64\kibana-8.17.3\bin
+	E:\Practic-2025\ELK\ELK-Tool\kibana-8.17.3-windows-x86_64\kibana-8.17.3\bin>kibana.bat
