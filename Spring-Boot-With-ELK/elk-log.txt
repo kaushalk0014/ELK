@@ -1,0 +1,14 @@
+2025-03-20T16:59:36.108+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Starting SpringBootWithElkApplication using Java 21.0.5 with PID 14988 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+2025-03-20T16:59:36.113+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T16:59:40.435+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-20T16:59:40.503+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-20T16:59:40.507+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20T16:59:41.154+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-20T16:59:41.155+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4882 ms
+2025-03-20T16:59:43.206+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-20T16:59:43.235+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Started SpringBootWithElkApplication in 8.789 seconds (process running for 11.21)
+2025-03-20T16:59:44.359+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20T16:59:44.360+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-20T16:59:44.370+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2025-03-20T16:59:44.484+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer]
+2025-03-20T17:00:15.570+05:30  INFO 14988 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-3] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]

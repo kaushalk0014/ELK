@@ -19,3 +19,28 @@ To Run kibana we need to flow below step:
 To Run kibana we need to go in 
 	kibana-8.17.3-windows-x86_64\kibana-8.17.3\bin
 	E:\Practic-2025\ELK\ELK-Tool\kibana-8.17.3-windows-x86_64\kibana-8.17.3\bin>kibana.bat
+	
+	logstash-elasticsearch-kibana
+	
+
+To Start logstash
+	E:\Practic-2025\ELK\ELK-Tool\logstash-8.17.3-windows-x86_64\logstash-8.17.3\bin>logstash.bat -f logstash.conf	
+	
+We should add logstash.conf file in path 
+		E:\Practic-2025\ELK\ELK-Tool\logstash-8.17.3-windows-x86_64\logstash-8.17.3/logstash.conf
+
+To see our indexs: 
+	http://localhost:9200/_cat
+To see index name:
+	http://localhost:9200/_cat/indices
+To see log file:
+	http://localhost:9200/logstash-index/_search
+=========================================================================
+Default Port:
+	Splunk :8000
+	elasticsearch: 9200
+	Kibana: 5601   http://localhost:5601/app/home#/
+	logstash: http://localhost:9600/
+	
+	yellow open logstash-index       Pd73vg8tTFufpJBAwaJPCg 1 1 228 0 171.2kb 171.2kb 171.2kb
+	

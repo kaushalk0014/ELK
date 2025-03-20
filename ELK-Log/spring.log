@@ -1,0 +1,248 @@
+2025-03-20T17:21:37.007+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:53 - Starting SpringBootWithElkApplication using Java 21.0.5 with PID 3376 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+ 3376 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Starting SpringBootWithElkApplication using Java 21.0.5 with PID 3376 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+2025-03-20T17:21:37.014+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:652 - No active profile set, falling back to 1 default profile: "default"
+ 3376 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T17:21:40.697+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+ 3376 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-20T17:21:40.735+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+ 3376 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-20T17:21:40.736+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+ 3376 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20T17:21:40.890+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+ 3376 --- [Spring-Boot-With-ELK] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-20T17:21:40.891+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext:301 - Root WebApplicationContext: initialization completed in 3688 ms
+ 3376 --- [Spring-Boot-With-ELK] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3688 ms
+2025-03-20T17:21:42.693+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+ 3376 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-20T17:21:42.726+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:59 - Started SpringBootWithElkApplication in 7.521 seconds (process running for 8.785)
+ 3376 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Started SpringBootWithElkApplication in 7.521 seconds (process running for 8.785)
+2025-03-20T17:21:43.967+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20T17:21:43.968+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-20T17:21:43.971+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:554 - Completed initialization in 2 ms
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-20T17:21:44.085+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] c.e.c.UserController:41 - User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] com.elk.controller.UserController        : User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+2025-03-20T17:23:03.701+05:30 d{yyyy-MM-dd HH:mm:ss} ERROR [http-nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[na:na]
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[na:na]
+	at com.elk.dao.UserDAOImpl.getUserById(UserDAOImpl.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.3.jar:6.2.3]
+	at com.elk.dao.UserDAOImpl$$SpringCGLIB$$0.getUserById(<generated>) ~[classes/:na]
+	at com.elk.service.UserServiceImpl.getUserById(UserServiceImpl.java:19) ~[classes/:na]
+	at com.elk.controller.UserController.getUserById(UserController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-03-20T17:23:17.732+05:30 d{yyyy-MM-dd HH:mm:ss} ERROR [http-nio-8080-exec-7] o.a.c.c.C.[.[.[.[dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0] with root cause
+
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[na:na]
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[na:na]
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[na:na]
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[na:na]
+	at com.elk.dao.UserDAOImpl.getUserById(UserDAOImpl.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:359) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138) ~[spring-tx-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.3.jar:6.2.3]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727) ~[spring-aop-6.2.3.jar:6.2.3]
+	at com.elk.dao.UserDAOImpl$$SpringCGLIB$$0.getUserById(<generated>) ~[classes/:na]
+	at com.elk.service.UserServiceImpl.getUserById(UserServiceImpl.java:19) ~[classes/:na]
+	at com.elk.controller.UserController.getUserById(UserController.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-03-20T17:23:21.765+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-9] c.e.c.UserController:28 - user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+ 3376 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-9] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+2025-03-20T17:27:56.356+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:53 - Starting SpringBootWithElkApplication using Java 21.0.5 with PID 15100 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+ 15100 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Starting SpringBootWithElkApplication using Java 21.0.5 with PID 15100 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+2025-03-20T17:27:56.366+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:652 - No active profile set, falling back to 1 default profile: "default"
+ 15100 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T17:28:02.625+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+ 15100 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-20T17:28:02.675+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+ 15100 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-20T17:28:02.676+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+ 15100 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20T17:28:02.896+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+ 15100 --- [Spring-Boot-With-ELK] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-20T17:28:02.897+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext:301 - Root WebApplicationContext: initialization completed in 6326 ms
+ 15100 --- [Spring-Boot-With-ELK] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6326 ms
+2025-03-20T17:28:05.145+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+ 15100 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-20T17:28:05.173+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:59 - Started SpringBootWithElkApplication in 11.042 seconds (process running for 13.102)
+ 15100 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Started SpringBootWithElkApplication in 11.042 seconds (process running for 13.102)
+2025-03-20T18:24:32.824+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20T18:24:33.103+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-20T18:24:33.430+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet:554 - Completed initialization in 324 ms
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 324 ms
+2025-03-20T18:24:33.895+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] c.e.c.UserController:28 - user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+2025-03-20T18:24:39.047+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-3] c.e.c.UserController:41 - User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-3] com.elk.controller.UserController        : User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+2025-03-20T18:24:57.281+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-4] c.e.c.UserController:28 - user details successfully get by id {} null
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-4] com.elk.controller.UserController        : user details successfully get by id {} null
+2025-03-20T18:24:57.283+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-4] c.e.c.UserController:31 - user not fount with id {} 1020
+ 15100 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-4] com.elk.controller.UserController        : user not fount with id {} 1020
+2025-03-20T18:51:39.018+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:53 - Starting SpringBootWithElkApplication using Java 21.0.5 with PID 9680 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+ 9680 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Starting SpringBootWithElkApplication using Java 21.0.5 with PID 9680 (E:\Practic-2025\Spring-Boot-With-ELK\target\classes started by kaush in E:\Practic-2025\Spring-Boot-With-ELK)
+2025-03-20T18:51:39.025+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:652 - No active profile set, falling back to 1 default profile: "default"
+ 9680 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-03-20T18:51:43.636+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+ 9680 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-20T18:51:43.715+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+ 9680 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-20T18:51:43.716+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.36]
+ 9680 --- [Spring-Boot-With-ELK] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-20T18:51:44.028+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+ 9680 --- [Spring-Boot-With-ELK] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-20T18:51:44.030+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext:301 - Root WebApplicationContext: initialization completed in 4851 ms
+ 9680 --- [Spring-Boot-With-ELK] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4851 ms
+2025-03-20T18:51:45.935+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] o.s.b.w.e.t.TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+ 9680 --- [Spring-Boot-With-ELK] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-20T18:51:45.961+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [main] c.e.c.SpringBootWithElkApplication:59 - Started SpringBootWithElkApplication in 9.095 seconds (process running for 10.857)
+ 9680 --- [Spring-Boot-With-ELK] [main] c.e.config.SpringBootWithElkApplication  : Started SpringBootWithElkApplication in 9.095 seconds (process running for 10.857)
+2025-03-20T18:52:24.382+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-20T18:52:24.383+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-20T18:52:24.386+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet:554 - Completed initialization in 2 ms
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-20T18:52:24.500+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] c.e.c.UserController:28 - user details successfully get by id {} null
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] com.elk.controller.UserController        : user details successfully get by id {} null
+2025-03-20T18:52:24.508+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] c.e.c.UserController:31 - user not fount with id {} 1020
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] com.elk.controller.UserController        : user not fount with id {} 1020
+2025-03-20T19:05:20.407+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-4] c.e.c.UserController:41 - User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-4] com.elk.controller.UserController        : User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+2025-03-20T19:09:22.429+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-7] c.e.c.UserController:41 - User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-7] com.elk.controller.UserController        : User details successfully get all {} [UserDTO [id=101, name=Rakesh Kumar, email=rakesh@gmail.com, mobile=9966335588, salary=50000, job=Developer], UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester], UserDTO [id=103, name=Akssh r, email=akashr@gmail.com, mobile=7000223366, salary=70000, job=HR], UserDTO [id=104, name=Pankaj Roy, email=pankajroy@gmail.com, mobile=6588559910, salary=90000, job=Developer], UserDTO [id=105, name=deepak Kumar, email=deepak@gmail.com, mobile=8840152452, salary=70000, job=Manager], UserDTO [id=106, name=Sohan Singh, email=sohansingh@gmail.com, mobile=9965336622, salary=60000, job=Tester], UserDTO [id=107, name=Anil A, email=anila@gmail.com, mobile=8822000010, salary=90000, job=HR], UserDTO [id=108, name=kaushal kumar, email=kaushalkumar@gmail.com, mobile=8000022550, salary=60000, job=Developer]]
+2025-03-20T19:09:27.829+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-9] c.e.c.UserController:28 - user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-9] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+2025-03-20T19:09:29.430+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-10] c.e.c.UserController:28 - user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-10] com.elk.controller.UserController        : user details successfully get by id {} UserDTO [id=102, name=Rohan, email=rohan@gmail.com, mobile=8855669955, salary=80000, job=Tester]
+2025-03-20T19:09:32.510+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] c.e.c.UserController:28 - user details successfully get by id {} null
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] com.elk.controller.UserController        : user details successfully get by id {} null
+2025-03-20T19:09:32.513+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-1] c.e.c.UserController:31 - user not fount with id {} 1020
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-1] com.elk.controller.UserController        : user not fount with id {} 1020
+2025-03-20T19:09:48.094+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] c.e.c.UserController:28 - user details successfully get by id {} null
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] com.elk.controller.UserController        : user details successfully get by id {} null
+2025-03-20T19:09:48.097+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-2] c.e.c.UserController:31 - user not fount with id {} 1000
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-2] com.elk.controller.UserController        : user not fount with id {} 1000
+2025-03-20T19:11:06.770+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-5] c.e.c.UserController:28 - user details successfully get by id {} null
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-5] com.elk.controller.UserController        : user details successfully get by id {} null
+2025-03-20T19:11:06.771+05:30 d{yyyy-MM-dd HH:mm:ss} INFO  [http-nio-8080-exec-5] c.e.c.UserController:31 - user not fount with id {} 1011
+ 9680 --- [Spring-Boot-With-ELK] [http-nio-8080-exec-5] com.elk.controller.UserController        : user not fount with id {} 1011
